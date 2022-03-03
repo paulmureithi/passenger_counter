@@ -1,15 +1,11 @@
-// document.getElementById("counter").innerText = 5
+let count = 0
 
-// app to-do
-
-// initialize count to 0
-
-// listen for button clicks
-
-// increment count on click
-
-// update the count value
-
+// listen for button clicks and increment count on click
 function increment() {
-    console.log("Yes!!Button clicked")
+    count = count+1
+    // console.log(count)
+    document.getElementById("counter").innerText = count
 }
+
+
+
